@@ -39,7 +39,17 @@ pip install -r requirements.txt
 
 uvicorn interview_test_api.main:interview_test_api --reload
 
-5. **Run the Command-Line Client**
+5. **Run LM Studio**
+
+Make sure you have LM Studio running on port 1234.
+
+The following LLM model is required:
+mistral-7b-instruct-v0.3
+
+Check the following image:
+![img.png](img.png)
+
+6. **Run the Command-Line Client**
 
 ! ENSURE THE API IS RUNNING BEFORE RUNNING THE CLIENT !
 
