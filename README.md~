@@ -1,8 +1,6 @@
 # Interview Quiz API
 
-This project is an API built with FastAPI that powers an AI-driven interview workflow.
-It provides endpoints to start an interview, submit responses, and complete the interview by saving a summary of the session. 
-Additionally, a command-line client is provided to interact with the API.
+This project is an API built with FastAPI that powers an AI-driven interview workflow. It provides endpoints to start an interview, submit responses, and complete the interview by saving a summary of the session. Additionally, a command-line client is provided to interact with the API.
 
 ## Prerequisites
 
@@ -43,7 +41,6 @@ uvicorn interview_test_api.main:interview_test_api --reload
 
 ! ENSURE THE API IS RUNNING BEFORE RUNNING THE CLIENT !
 
-Run the client with the following command:
 
 python run_app.py
 
